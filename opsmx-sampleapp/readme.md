@@ -1,4 +1,4 @@
-# This repository has a sample app to showcase canary deployments using Argo
+### This repository has a sample app to showcase canary deployments using Argo
 
 #### Deploy  the Rollout, Services, and Ingress
 
