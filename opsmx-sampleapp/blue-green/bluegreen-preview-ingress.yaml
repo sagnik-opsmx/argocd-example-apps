@@ -12,7 +12,7 @@ spec:
     http:
       paths:
       - path: /
-        pathType: ImplemetationSpecific
+        pathType: ImplementationSpecific
         backend:
           service:
             name: bluegreen-demo-preview
