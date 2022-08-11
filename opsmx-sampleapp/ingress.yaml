@@ -1,12 +1,12 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: canary-demo
+  name: sample-canary-demo
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: sample-canaryrollouts.argo.opsmx.net 
+  - host: sample-canary-demo.argo.opsmx.net 
     http:
       paths:
       - path: /
