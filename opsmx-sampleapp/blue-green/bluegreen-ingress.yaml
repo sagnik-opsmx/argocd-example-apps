@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: blue-green.argo.opsmx.net
+  - host: blue-green-sagnik.argo.opsmx.net
     http:
       paths:
       - path: /
